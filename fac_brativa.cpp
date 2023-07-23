@@ -141,16 +141,16 @@ int vcarro2;
         case 1:
             cout << "valor: ";
             cin >> vcarro;
-            vcarro2 = vcarro * 0.70;
-            vcarro = (vcarro2 - vcarro) * -1;
+            vcarro2 = (vcarro * 80)/100;
+            vcarro = (vcarro - vcarro2);
             cout << "Valor total do Cliente: " << "R$ "<< vcarro2 << endl;
             cout << "Valor total do Membro: " << "R$ "<< vcarro << endl; 
         break;
         case 2:
             cout << "valor: ";
             cin >> vcarro;
-            vcarro2 = vcarro * 0.80;
-            vcarro = (vcarro2 - vcarro) * -1;
+            vcarro2 = (vcarro * 70)/100;
+            vcarro = (vcarro - vcarro2);
             cout << "Valor total do Cliente: " << vcarro2 << endl;
             cout << "Valor total do Membro: " << vcarro << endl; 
         break;
